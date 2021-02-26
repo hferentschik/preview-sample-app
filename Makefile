@@ -1,5 +1,5 @@
-REGISTRY ?= eu.gcr.io/wombat-dev-283614
-IMAGE ?= sample-app-minimal
+REGISTRY ?= hferentschik
+IMAGE ?= preview-sample-app
 VERSION ?= $(shell git rev-parse HEAD)
 
 all: docker-build
