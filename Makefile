@@ -1,4 +1,4 @@
-REGISTRY ?= eu.gcr.io/wombat-dev-283614
+REGISTRY ?= hferentschik
 IMAGE ?= sample-app-minimal
 VERSION ?= $(shell git rev-parse HEAD)
 
