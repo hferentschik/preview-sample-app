@@ -3,11 +3,11 @@ apiVersion: 1.0.0
 previews:
   - name: default
     container:
-      image: hferentschik/sample-app-minimal:${ENV_COMMIT_SHA}
+      image: hferentschik/sample-app-minimal:${{env.commit.sha}}
       ports:
         - value: 80
   - name: debug-context
     container:
-      image: hferentschik/sample-app-minimal:${ENV_COMMIT_SHA}
+      image: hferentschik/sample-app-minimal:${{env.commit.sha}}
       ports:
         - value: 80
