@@ -1,0 +1,4 @@
+make: Entering directory `/Users/hardy/work/cb/preview-sample-app'
+docker build -t hferentschik/sample-app-minimal:b7fcfe4ad9d2b6a78a191f1c67bfb9e6ed2ca8fa .
+make: Leaving directory `/Users/hardy/work/cb/preview-sample-app'
+ 

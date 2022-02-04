@@ -1,0 +1,1 @@
+{"buildTargets":["all","docker-build","docker-push","kind-load-image"],"launchTargets":[],"customConfigurationProvider":{"workspaceBrowse":{"browsePath":[],"compilerArgs":[]},"fileIndex":[]}}
